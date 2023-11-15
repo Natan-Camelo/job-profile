@@ -1,0 +1,323 @@
+body {
+    background-color: #22212C;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+main {
+    box-sizing: content-box;
+    display: flex;
+}
+
+nav {
+    position: absolute; 
+    top: 0vh;
+    left: 63vh;  
+}
+
+a {  /* Tira a estilização do browser para os textos com links */
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Lado direito do site */
+.perfil {
+    background-color: #302F3D;
+    margin: 5vh 145vh 5vh 5vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.foto {
+    display: flex;
+    width: 150px;
+    height: 145px;
+    margin: 0px auto;
+    border-radius: 120px;
+    border: 2px solid #65b365;
+    padding: 2px;
+}
+
+.texto-perfil {
+    color: #837E9F;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contatos {
+    background-color: #302F3D;
+    color: #837E9F;
+    margin: 5vh 145vh 5vh 5vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.redes-sociais {
+    flex-direction: column;
+    list-style: none;
+}
+
+.redes-sociais li {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.redes-sociais p {
+    padding-left: 10px;
+}
+
+.tecnologias {
+    background-color: #302F3D;
+    color: #837E9F;
+    margin: 5vh 145vh 5vh 5vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.tec-lista {
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 20px;
+    column-count: 3;
+} 
+
+.java,
+.react,
+.nodejs,
+.git,
+.github,
+.html,
+.css,
+.elixir,
+.react-native {
+    background-color: #CB92B1;
+    color: #111016;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.experiencias {
+    background-color: #302F3D;
+    color: #837E9F;
+    margin: 5vh 145vh 5vh 5vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.experiencias ul {
+    margin-top: 20px;
+}
+
+.experiencias p {
+    font-size: 13px;
+}
+
+.exp-01,
+.exp-02,
+.exp-03,
+.exp-04 {
+    margin: 20px 0px 20px 0px;
+}
+
+.educacao {
+    background-color: #302F3D;
+    color: #837E9F;
+    margin: 5vh 145vh 5vh 5vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);   
+}
+
+.educacao ul {
+    margin-top: 20px;
+}
+
+.educacao p {
+    font-size: 13px;
+}
+
+.edu-01,
+.edu-02,
+.edu-03 {
+    margin: 20px 0px 20px 0px;
+}
+
+/* Lado esquerdo do site */
+.projetos {
+    background-color: #302F3D;
+    color: #837E9F;
+    margin: 5vh 5vh 5vh 10vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.projetos div {
+    display: flex;
+    align-items: center;
+}
+
+.projetos p {
+    cursor: pointer;
+    display: flex;
+    padding-left: 85vh;    
+}
+
+.content-onix {
+    display: flex;
+    gap: 20px;
+    margin: 5vh 5vh 5vh 10vh;
+}
+
+.onix1,
+.onix2 {
+    background-color: #302F3D;
+    color: #837E9F;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.onixtitulo {
+    display: flex;
+    align-items: center;
+}
+
+.onixtitulo p {
+    padding-left: 10px;
+}
+
+.onixtext {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.onix1 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.onix2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.onixstar {
+    padding-right: 10px;
+}
+
+.onixgit {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.onixtext2 {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+.onix1 input {
+    background-color: rgb(214, 214, 132);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-color: #dbdbdbe7;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.onix2 input {
+    background-color: rgb(214, 214, 132);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-color: #dbdbdbe7;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.onixjava {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.posters {
+    background-color: #302F3D;
+    color: #837E9F;
+    margin: 5vh 5vh 5vh 10vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.dados {
+    background-color: #302F3D;
+    color: #837E9F;
+    margin: 5vh 5vh 5vh 10vh;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.dados-content {
+    display: flex;
+}
+
+.text-dados {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.text-dados p {
+    margin-top: 10px;
+}
+
+.text-dados ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+.text-dados li {
+    padding-right: 20px;
+}
+
+.foto-02 {
+    width: 150px;
+    height: 145px;
+    margin: 0px auto;
+    border-radius: 120px;
+    border: 2px solid #65b365;
+    padding: 2px;
+}
+
+.rodape {
+    color: #837E9F;
+    text-align: center;
+}

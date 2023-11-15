@@ -1,0 +1,72 @@
+@media (max-width: 1288px) {
+    main {
+        margin: 10px;
+    }
+    
+    nav {
+        position: relative;
+        top: 0vh;
+        left: 0vh;
+    }
+
+    .perfil {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .contatos {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .tecnologias {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .experiencias {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .educacao {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .projetos {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .projetos p {
+        padding-left: 20vh;
+    }
+
+    .content-onix {
+        margin: 5vh 5vh 5vh 5vh;
+        flex-direction: column;
+    }
+    
+    .onixtext1 {
+        padding-right: 30px;
+    }
+
+    .onixtext2 {
+        padding-right: 30px;
+    }
+
+    .posters {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .dados {
+        margin: 5vh 5vh 5vh 5vh;
+    }
+
+    .dados-content {
+        display: contents;
+    }
+
+    .text-dados ul {
+        display: contents;
+    }
+
+    .foto-02 {
+        display: flex;
+    }
+}
